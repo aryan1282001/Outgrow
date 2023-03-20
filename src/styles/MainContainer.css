@@ -1,0 +1,31 @@
+.MainContainer{
+    width:calc(100vw - 480px);
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+.MainAside aside{
+    display: none;
+}
+
+@media  screen and (max-width: 1000px){
+    .MainContainer {
+        width: 100%;
+    }
+
+    .MainAside aside {
+        display: flex;
+        width: 100%;
+        padding-top: 300px;
+        justify-content: start;
+        height: auto;
+        padding-bottom: 80px;
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+    .MainAside aside{
+        padding-top: 100px;
+    }
+  }

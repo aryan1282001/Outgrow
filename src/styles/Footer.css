@@ -1,0 +1,136 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer h2 {
+  font-family: "Besley";
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 40px;
+  padding-top: 70px;
+  padding-bottom: 15px;
+}
+
+.footer-input {
+  background: #ffffff;
+  gap: 20px;
+  display: flex;
+}
+
+.footer-input .main-input {
+  display: flex;
+  align-items: center;
+  border: 2px solid rgba(51, 95, 4, 0.4);
+  width: 348px;
+  height: 55px;
+  border-radius: 6px;
+  padding-left: 22px;
+  gap: 16px;
+}
+
+.footer-input input {
+  background-color: inherit;
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 18px;
+  outline: none;
+  height: 100%;
+  width: 100%;
+  border: none;
+}
+.footer p{
+  font-family: 'Besley';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 27px;
+
+color: rgba(51, 51, 51, 0.7);
+}
+
+.footer-input input::placeholder {
+  color: #335f04;
+}
+
+.footer button {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 180px;
+  height: 50px;
+
+  background: #335f04;
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  color: white;
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  border-style: none;
+}
+
+.footer h3 {
+  font-family: "Besley";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 37px;
+  padding-top: 3px;
+}
+
+.footer-bottom {
+  width: 100%;
+  height: 45px;
+  background: #335f04;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-bottom h4{
+    
+font-family: 'Besley';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 20px;
+color:white;
+padding-left: 20px;
+
+}
+.footer-bottom img{
+    padding-right: 10px;
+    width: 143px;
+height: 29px;
+}
+
+@media screen and (max-width: 600px) {
+  .footer-input {
+    flex-direction: column;
+  }
+  .footer-bottom{
+    height:80px;
+    flex-direction: column;
+    justify-content: center;
+    gap:7px;  
+
+  }
+
+  footer h2 {
+    font-size: 22px;
+  }
+
+  .footer-input .main-input {
+    width: 300px;
+height: 46px;
+font-size: 12px;
+  }
+
+  .icons {
+    width: 80%;
+  }
+
+}
